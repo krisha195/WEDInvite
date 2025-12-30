@@ -87,7 +87,7 @@ h3 {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url('assets/hero.jpg');
+    background-image: url('hero.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -266,7 +266,7 @@ h3 {
 .itinerary-bg {
     position: absolute;
     inset: 0;
-    background: url('assets/backgroundCouple.jpg') center/cover fixed;
+    background: url('backgroundCouple.jpg') center/cover fixed;
     z-index: 0;
 }
 
@@ -414,7 +414,7 @@ h3 {
     overflow: hidden;
     border-top: 1px solid rgba(212, 175, 55, 0.3);
     background-size: cover;
-    background: url('assets/background3.jpg ') center/cover no-repeat;
+    background: url('background3.jpg ') center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -542,7 +542,7 @@ h3 {
     text-align: center;
     overflow: hidden;
     border-top: 1px solid rgba(212, 175, 55, 0.3);
-    background-image: url("assets/texture.avif");
+    background-image: url("texture.avif");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -716,4 +716,5 @@ h3 {
     .card.prev-2 {
         opacity: 0;
     }
+
 }
