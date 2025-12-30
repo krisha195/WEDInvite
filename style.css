@@ -87,7 +87,7 @@ h3 {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url('hero.jpg');
+    background-image: url('assets/hero.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -95,9 +95,6 @@ h3 {
  
     z-index: -2;
 }
-
-
-
 
 @keyframes zoomBg {
     to {
@@ -128,7 +125,6 @@ h3 {
 .top-mantra {
     color: var(--gold);
     font-size: 1.2rem;
-    margin-bottom: 20px;
     letter-spacing: 3px;
 }
 
@@ -270,7 +266,7 @@ h3 {
 .itinerary-bg {
     position: absolute;
     inset: 0;
-    background: url('backgroundCouple.jpg') center/cover fixed;
+    background: url('assets/backgroundCouple.jpg') center/cover fixed;
     z-index: 0;
 }
 
@@ -418,7 +414,7 @@ h3 {
     overflow: hidden;
     border-top: 1px solid rgba(212, 175, 55, 0.3);
     background-size: cover;
-    background: url('background3.jpg ') center/cover no-repeat;
+    background: url('assets/background3.jpg ') center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -440,9 +436,6 @@ h3 {
     position: relative;
     z-index: 2;
 }
-
-
-
 
 .carousel-wrapper {
     height: 600px;
@@ -549,11 +542,18 @@ h3 {
     text-align: center;
     overflow: hidden;
     border-top: 1px solid rgba(212, 175, 55, 0.3);
-    background-image: url("texture.avif");
+    background-image: url("assets/texture.avif");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    height: 1042px;
+}
+
+.royal-footer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 0;
 }
 
 .footer-overlay {
@@ -655,6 +655,12 @@ h3 {
     .footer-message {
         font-size: 1.05rem;
     }
+
+    .royal-footer::after {
+        width: 400px;
+        height: 200px;
+        bottom: -80px;
+    }
 }
 
 
@@ -710,5 +716,4 @@ h3 {
     .card.prev-2 {
         opacity: 0;
     }
-
 }
