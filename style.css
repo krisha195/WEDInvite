@@ -255,6 +255,65 @@ h3 {
     color: var(--gold);
 }
 
+@media (max-width: 1024px) {
+  .royal-border {
+    max-width: 90%;
+    padding: 50px 24px;
+  }
+
+  .section-title {
+    font-size: 2.6rem;
+  }
+
+  .poetic-text {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .proclamation {
+    padding: 80px 16px;
+  }
+
+  .royal-border {
+    padding: 40px 20px;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  .poetic-text {
+    font-size: 1.15rem;
+    line-height: 1.7;
+  }
+
+  .signature {
+    font-size: 2.2rem;
+  }
+}
+
+/* Small Phones */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.9rem;
+  }
+
+  .poetic-text {
+    font-size: 1.05rem;
+  }
+
+  .signature {
+    font-size: 2rem;
+  }
+
+  .royal-border::before {
+    inset: 4px; /* prevents border crowding */
+  }
+}
+
+
 /* ================= ITINERARY (MATCHING SCREENSHOT) ================= */
 .itinerary-section {
     position: relative;
@@ -718,3 +777,4 @@ h3 {
     }
 
 }
+
