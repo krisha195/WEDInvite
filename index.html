@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Parth & Siya | Royal Wedding</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;1,400&family=Montserrat:wght@300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="loader">
+    <div class="loader-crest">
+      <span>P</span><span class="heart">&</span><span>S</span>
+    </div>
+    <p>Loading The Royal Celebration...</p>
+  </div>
+
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <canvas id="goldCanvas"></canvas>
+
+    <div class="hero-content">
+      <div class="top-mantra"><img src="assets/gannu.png" alt=""></div>
+
+      <h1 class="couple-names">
+        Parth <span class="cursive">&</span> Siya
+      </h1>
+
+      <p class="hero-date">APRIL 27, 2026</p>
+      <p class="hero-quote">
+        "Once in a while, right in the middle of an ordinary life, <br>love gives us a fairytale."
+      </p>
+
+      <div class="countdown-box">
+        <div class="timer">
+          <span id="days">00</span><small>Days</small>
+        </div>
+        <div class="divider">:</div>
+        <div class="timer">
+          <span id="hours">00</span><small>Hours</small>
+        </div>
+        <div class="divider">:</div>
+        <div class="timer">
+          <span id="minutes">00</span><small>Mins</small>
+        </div>
+        <div class="divider">:</div>
+        <div class="timer">
+          <span id="seconds">00</span><small>Secs</small>
+        </div>
+      </div>
+
+      <div class="scroll-btn">
+        <span>The Journey Begins</span>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+  </section>
+
+  <section class="section proclamation">
+    <div class="royal-border">
+      <h2 class="section-title">Two hearts. One journey.
+        A lifetime of togetherness begins here.</h2>
+      <p class="poetic-text">
+        With the eternal blessings of our ancestors
+        and the boundless love of our families,
+        we invite you to witness a sacred moment
+        where two hearts find home in one another.
+
+        As we step into a lifetime of love, laughter,
+        and shared dreams, your presence will make
+        our beginning even more meaningful.
+
+      </p>
+      <div class="signature">Parth & Siya</div>
+    </div>
+  </section>
+
+  <section class="section itinerary-section" id="events">
+    <div class="itinerary-bg"></div>
+
+    <div class="itinerary-header scroll-anim">
+      <h2 class="section-title">Wedding Celebrations</h2>
+    </div>
+
+    <div class="timeline-wrapper">
+      <div class="center-line"></div>
+
+      <div class="row row-right scroll-anim">
+        <div class="dot"></div>
+        <div class="glass-card">
+          <h3>Mehendi</h3>
+          <p class="datetime">24th April 2026 • 9:00 AM</p>
+          <p class="location">Rampur, Gujarat</p>
+          <p class="tagline">Auspicious Ceremony</p>
+          <a href="https://maps.app.goo.gl/nVjWPA8MtJvrsSd26" class="btn-link" target="_blank">See Location</a>
+        </div>
+      </div>
+
+      <div class="row row-left scroll-anim">
+        <div class="dot"></div>
+        <div class="glass-card">
+          <h3>Haldi</h3>
+          <p class="datetime">25th April 2026 • 12:00 PM</p>
+          <p class="location">Rampur, Gujarat</p>
+          <p class="tagline">Sacred Turmeric Ceremony</p>
+          <a href="https://maps.app.goo.gl/nVjWPA8MtJvrsSd26" class="btn-link" target="_blank">See Location</a>
+        </div>
+      </div>
+
+      <div class="row row-right scroll-anim">
+        <div class="dot"></div>
+        <div class="glass-card">
+          <h3>Shaadi</h3>
+          <p class="datetime">27th April 2026 • 5:00 PM</p>
+          <p class="location">Rampur, Gujarat</p>
+          <p class="tagline">Evening Ceremony</p>
+          <a href="https://maps.app.goo.gl/nVjWPA8MtJvrsSd26" class="btn-link" target="_blank">See Location</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section gallery-section">
+    <div class="gallery-bg-overlay"></div>
+    <h2 class="section-title golden-glow">Captured Moments</h2>
+    <p class="sub-title">Swipe to see our story</p>
+
+    <div class="carousel-wrapper">
+      <div class="carousel-container">
+        <div class="card active"><img src="assets/m1.jpeg" alt="Moment 1"></div>
+        <div class="card next"><img src="assets/m2.jpeg" alt="Moment 2"></div>
+        <div class="card next-2"><img src="assets/m3.jpeg" alt="Moment 3"></div>
+        <div class="card prev"><img src="assets/m4.jpeg" alt="Moment 4"></div>
+        <div class="card prev-2"><img src="assets/m5.jpeg" alt="Moment 5"></div>
+      </div>
+
+      <div class="carousel-actions">
+        <button id="prevBtn"><i class="fas fa-arrow-left"></i></button>
+        <button id="nextBtn"><i class="fas fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="royal-footer">
+    <div class="footer-overlay"></div>
+
+    <div class="footer-content">
+      <span class="footer-tagline">With blessings, love & laughter</span>
+
+      <h2 class="footer-hashtag">#SiyaKeParth</h2>
+
+      <div class="footer-divider">
+        <span></span>
+        <b>🤍</b>
+        <span></span>
+      </div>
+
+      <p class="footer-message">
+        We can't wait to celebrate our forever with you by our side.
+      </p>
+
+      <p class="footer-date">27 April 2026 • Rampur</p>
+
+      <div class="footer-sign">
+        Siya <span>&</span> Parth
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
